@@ -1202,14 +1202,14 @@ body:after {
     -ms-transform: translateX(0%);
     transform: translateX(0%); }
 
-.testimonial {
+.education {
   max-width: 800px;
   margin: 0 auto !important;
   text-align: center; }
-  .testimonial blockquote {
+  .education blockquote {
     font-size: 1.5rem;
     font-style: italic; }
-  .testimonial figure img {
+  .education figure img {
     max-width: 100px;
     margin: 0 auto;
     border-radius: 50%; }
@@ -1567,7 +1567,7 @@ body:after {
     -ms-transform: scale(1.05);
     transform: scale(1.05); }
 
-.testimonial-wrap .owl-nav {
+.education-wrap .owl-nav {
   display: none; }
 
 .section-sub-title {
