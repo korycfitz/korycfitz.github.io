@@ -377,3 +377,52 @@ readLessBtn.addEventListener('click', function() {
   readMoreBtn.style.display = 'inline';
   readLessBtn.style.display = 'none';
 });
+
+const readMoreBtn1 = document.getElementById('read-more-1');
+const readLessBtn1 = document.getElementById('read-less-1');
+const moreText1 = document.getElementById('more-text-1');
+
+readMoreBtn1.addEventListener('click', function() {
+  moreText1.style.display = 'inline';
+  readMoreBtn1.style.display = 'none';
+  readLessBtn1.style.display = 'inline';
+});
+
+readLessBtn1.addEventListener('click', function() {
+  moreText1.style.display = 'none';
+  readMoreBtn1.style.display = 'inline';
+  readLessBtn1.style.display = 'none';
+});
+
+const readMoreBtn2 = document.getElementById('read-more-2');
+const readLessBtn2 = document.getElementById('read-less-2');
+const moreText2 = document.getElementById('more-text-2');
+
+readMoreBtn2.addEventListener('click', function() {
+  moreText2.style.display = 'inline';
+  readMoreBtn2.style.display = 'none';
+  readLessBtn2.style.display = 'inline';
+});
+
+readLessBtn2.addEventListener('click', function() {
+  moreText2.style.display = 'none';
+  readMoreBtn2.style.display = 'inline';
+  readLessBtn2.style.display = 'none';
+});
+
+
+const readMoreBtn3 = document.getElementById('read-more-3');
+const readLessBtn3 = document.getElementById('read-less-3');
+const moreText3 = document.getElementById('more-text-3');
+
+readMoreBtn3.addEventListener('click', function() {
+  moreText3.style.display = 'inline';
+  readMoreBtn3.style.display = 'none';
+  readLessBtn3.style.display = 'inline';
+});
+
+readLessBtn3.addEventListener('click', function() {
+  moreText3.style.display = 'none';
+  readMoreBtn3.style.display = 'inline';
+  readLessBtn3.style.display = 'none';
+});

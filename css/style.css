@@ -2010,6 +2010,18 @@ figure figcaption {
   display: none;
 }
 
+#more-text-1 {
+  display: none;
+}
+
+#more-text-2 {
+  display: none;
+}
+
+#more-text-3 {
+  display: none;
+}
+
 /*PRELOADING------------ */
 #overlayer {
   width: 100%;
