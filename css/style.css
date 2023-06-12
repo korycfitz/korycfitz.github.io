@@ -2022,6 +2022,15 @@ figure figcaption {
   display: none;
 }
 
+.circle-img {
+  display: flex;
+}
+
+.circle-img img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 /*PRELOADING------------ */
 #overlayer {
   width: 100%;
