@@ -361,3 +361,19 @@ jQuery(document).ready(function($) {
 	});
 
 });
+
+const readMoreBtn = document.getElementById('read-more');
+const readLessBtn = document.getElementById('read-less');
+const moreText = document.getElementById('more-text');
+
+readMoreBtn.addEventListener('click', function() {
+  moreText.style.display = 'inline';
+  readMoreBtn.style.display = 'none';
+  readLessBtn.style.display = 'inline';
+});
+
+readLessBtn.addEventListener('click', function() {
+  moreText.style.display = 'none';
+  readMoreBtn.style.display = 'inline';
+  readLessBtn.style.display = 'none';
+});

@@ -2005,6 +2005,11 @@ figure figcaption {
   font-style: italic;
   font-size: .8rem; }
 
+  
+#more-text {
+  display: none;
+}
+
 /*PRELOADING------------ */
 #overlayer {
   width: 100%;
@@ -2025,3 +2030,4 @@ figure figcaption {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); }
+
