@@ -2031,6 +2031,9 @@ figure figcaption {
   object-fit: cover;
 }
 
+div.col-6.col-xl-2 {
+  min-width: fit-content;
+}
 /*PRELOADING------------ */
 #overlayer {
   width: 100%;
