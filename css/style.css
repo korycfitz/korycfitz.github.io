@@ -2035,6 +2035,11 @@ figure figcaption {
 div.col-6.col-xl-2 {
   min-width: fit-content;
 }
+
+div#posts.row.no-gutter {
+  margin-left: 100px;
+}
+
 /*PRELOADING------------ */
 #overlayer {
   width: 100%;
