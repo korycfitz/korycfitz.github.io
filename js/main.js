@@ -351,7 +351,6 @@ jQuery(document).ready(function($) {
 
   siteIstotope();
 
-
   $('.fancybox').on('click', function() {
 	  var visibleLinks = $('.fancybox');
 
