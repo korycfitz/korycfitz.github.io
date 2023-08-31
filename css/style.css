@@ -2024,8 +2024,15 @@ figure figcaption {
 
 .circle-img img {
   border-radius: 50%;
-  object-fit: cover;
-  justify-content: center;
+  position: relative;
+  margin-left: 3rem;
+}
+
+
+@media (min-width: 518px) {
+  .circle-img img {
+    margin-left: 4rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -2036,6 +2043,8 @@ figure figcaption {
 
 div.col-6.col-xl-2 {
   min-width: fit-content;
+  padding-right: 6px;
+  padding-left: 15px;
 }
 
 div#posts.row.no-gutter {
