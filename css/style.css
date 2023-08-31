@@ -2029,7 +2029,12 @@ figure figcaption {
 .circle-img img {
   border-radius: 50%;
   object-fit: cover;
-  margin-left: 25%;
+}
+
+@media (min-width: 768px) {
+  .circle-img img {
+    margin-left: 11rem;
+  }
 }
 
 div.col-6.col-xl-2 {
