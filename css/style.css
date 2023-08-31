@@ -2022,13 +2022,10 @@ figure figcaption {
   display: none;
 }
 
-.circle-img {
-  display: flex;
-}
-
 .circle-img img {
   border-radius: 50%;
   object-fit: cover;
+  justify-content: center;
 }
 
 @media (min-width: 768px) {
